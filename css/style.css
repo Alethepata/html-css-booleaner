@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+}
+#logo{
+  background-image: url(../img/pattern.png);
+  background-color:#4ea0ff;
+  height: 170px;
+}
+#logo img{
+  width: 200px;
+  margin: 90px 25px;
+}
+
+ 
+
+
