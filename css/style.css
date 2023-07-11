@@ -1,17 +1,23 @@
 *{
   margin: 0;
 }
-img,.testo,.testo-3 p,table,h3,.foto-1,.foto-2{
-  margin: 10px 25px;
+main{
+  padding: 30px;
+  
 }
 #logo{
   background-image: url(../img/pattern.png);
   background-color:#4ea0ff;
   height: 170px;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 .testo-2{
-  margin: 5px 25px;
   font-size: small;
+}
+.lista{
+  padding-left: 15px;
 }
 .testo-3,.lista,table{
   font-size: large;
@@ -25,17 +31,12 @@ img,.testo,.testo-3 p,table,h3,.foto-1,.foto-2{
 .testo-3 span,.lista span{
   background-color: yellow;
 }
-th p,.foto-1 h2,.foto-2 h2{ 
+.foto-1 h2,.foto-2 h2{ 
    color: white;
+   padding: 50px;
 }
-td span,td p{
-  padding-top: 35px;
-  height: 50px;
-  width: auto;
-}
-tbody{
-  height: 150px;
-} 
+
+
 .foto-1{
   background-image: url(../img/monitor.jpg);
 }
@@ -47,10 +48,7 @@ tbody{
   height: 400px;
   background-size: cover;
 }
- .foto-1 h2, .foto-2 h2{
-padding: 50px;
-}
-td p {
+.dispari{
   background-color: #b1e5f2;
 }
 #logo img{
@@ -64,8 +62,14 @@ td p {
 .testo span{
   color: #4ea0ff;
 }
-th p{
-  width: 450px;  
-  text-align: left;
+thead{
   background-color: #23a9e5;
+  color: white;
+}
+table{
+  text-align: left;
+  border-collapse: collapse ;
+}
+.text{
+  width: 50%;
 }
